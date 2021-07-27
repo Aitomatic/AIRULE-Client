@@ -3,7 +3,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 
-AIRULE_CLIENT_PACKAGE_NAME = 'h1st'
+AIRULE_CLIENT_PACKAGE_NAME = 'airule'
 
 
 current_dir_path = Path(__file__).parent
