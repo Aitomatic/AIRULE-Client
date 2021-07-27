@@ -1,0 +1,15 @@
+{
+  "PACKAGE": "AIRULE-Client",
+  "VERSION": "0.0.0dev0",
+  "DESCRIPTION": "AIRULE Client",
+  "AUTHOR": "Aitomatic, Inc.",
+
+  "URL": "https://GitHub.com/Aitomatic/AIRULE-Client",
+  "DOWNLOAD_URL": "https://Aitomatic/AIRULE-Client/archive/main.zip",
+
+  "CLASSIFIERS": [
+  ],
+
+  "KEYWORDS": [
+  ]
+}
