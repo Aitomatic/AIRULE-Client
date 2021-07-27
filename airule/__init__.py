@@ -1,5 +1,5 @@
 import json
-from typing import SimpleNamespace
+from types import SimpleNamespace
 
 
 metadata = SimpleNamespace(**json.load('metadata.json'))
