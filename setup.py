@@ -33,7 +33,7 @@ setup(
     package_dir={'': ''},
     include_package_data=True,
     zip_safe=False,
-    install_requires=open('src/requirements.txt').readlines(),
+    install_requires=open('requirements.txt').readlines(),
     entry_points=dict(console_scripts=['airule=airule.cli:airule']),
     extras_require={},
     python_requires='>= 3.8',
