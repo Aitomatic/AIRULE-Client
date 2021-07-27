@@ -38,5 +38,5 @@ setup(
     install_requires=requirements,
     entry_points='',
     python_requires='>= 3.8',
-    namespace_packages=[AIRULE_CLIENT_PACKAGE_NAME]
+    namespace_packages=[]
 )
