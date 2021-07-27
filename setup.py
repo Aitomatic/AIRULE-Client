@@ -30,7 +30,7 @@ setup(
     classifiers=metadata.CLASSIFIERS,
     license='MIT',
     keywords=metadata.KEYWORDS,
-    # package_dir={'': ''},
+    package_dir={'': ''},
     include_package_data=True,
     zip_safe=False,
     install_requires=open('requirements.txt').readlines(),
