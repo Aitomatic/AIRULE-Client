@@ -1,17 +1,8 @@
 import json
-from pathlib import Path
 from setuptools import find_packages, setup
 from types import SimpleNamespace
 
-
-AIRULE_CLIENT_PACKAGE_NAME = 'airule'
-
-
-current_dir_path = Path(__file__).parent
-
-metadata = SimpleNamespace(**json.load(open(current_dir_path /
-                                       AIRULE_CLIENT_PACKAGE_NAME /
-                                       'metadata.json')))
+from airule import metadata
 
 
 setup(
