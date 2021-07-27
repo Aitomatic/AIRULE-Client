@@ -1,1 +1,3 @@
+include airule/metadata.json
+
 recursive-exclude *.pyc
