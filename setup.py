@@ -24,7 +24,7 @@ setup(
     maintainer=metadata.AUTHOR,
     url=metadata.URL,
     download_url=metadata.DOWNLOAD_URL,
-    packages=find_packages(include=[f'{AIRULE_CLIENT_PACKAGE_NAME}.*']),
+    packages=find_packages(),
     py_modules=[],
     scripts=[],
     classifiers=metadata.CLASSIFIERS,
