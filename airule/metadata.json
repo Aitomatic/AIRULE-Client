@@ -1,11 +1,11 @@
 {
-  "PACKAGE": "AIRULE",
+  "PACKAGE": "aiRULE",
   "VERSION": "0.0.0.dev11",
-  "DESCRIPTION": "AIRULE Client",
+  "DESCRIPTION": "aiRULE Client",
   "AUTHOR": "Aitomatic, Inc.",
 
-  "URL": "https://GitHub.com/Aitomatic/AIRULE-Client",
-  "DOWNLOAD_URL": "https://GitHub.com/Aitomatic/AIRULE-Client/archive/main.zip",
+  "URL": "https://GitHub.com/Aitomatic/aiRULE-Client",
+  "DOWNLOAD_URL": "https://GitHub.com/Aitomatic/aiRULE-Client/archive/main.zip",
 
   "CLASSIFIERS": [
   ],
