@@ -1,1 +1,1 @@
-# AIRULE Client
+# `aiRULE` Client
