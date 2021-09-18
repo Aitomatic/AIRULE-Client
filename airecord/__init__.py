@@ -32,4 +32,5 @@ django_settings.configure(**{
     if SETTING_KEY.isupper()
 })
 get_wsgi_application()
+print('Migrating Local aiRecord Database...')
 call_command('migrate')
