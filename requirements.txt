@@ -1,6 +1,8 @@
 # ML/DL
 Auto-SKLearn >= 0.14.0
 SciKit-Learn >= 0.24.2
+# TensorFlow >= 2.6.0
+# Torch >= 1.9.0
 
 # misc/other
 Click >= 8.0.1
