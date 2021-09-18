@@ -141,16 +141,16 @@ JAZZMIN_SETTINGS = dict(
     show_ui_builder=True,
 
     # title of the window
-    site_title='H1st AI App Admin',
+    site_title='aiRecord Admin',
 
     # Title on the brand, and the login screen (19 chars max)
-    site_header='H1st AI App Admin',
+    site_header='aiRecord Admin',
 
     # Welcome text on the login screen
-    welcome_sign='Welcome to H1st AI App Admin',
+    welcome_sign='Welcome to aiRecord Admin',
 
     # Copyright on the footer
-    copyright='Aitomatic'
+    copyright='Aitomatic, Inc.'
 )
 
 
