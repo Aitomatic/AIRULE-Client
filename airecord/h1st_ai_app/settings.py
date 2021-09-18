@@ -1,4 +1,4 @@
-from airecord import _AIRECORD_DIR_PATH
+from airecord.util import _AIRECORD_DIR_PATH
 
 
 # Quick-start development settings - unsuitable for production

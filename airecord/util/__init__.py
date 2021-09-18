@@ -1,10 +1,5 @@
-from uuid import UUID, uuid4
+from pathlib import Path
 
 
-class WithUUIDMixIn:
-    @property
-    def uuid(self) -> UUID:
-        if not hasattr(self, '_uuid'):
-            self._uuid = uuid4()
-
-        return self._uuid
+_AIRECORD_DIR_PATH = Path.home() / '.airecord'
+_AIRECORD_DIR_PATH.mkdir(exist_ok=True)
