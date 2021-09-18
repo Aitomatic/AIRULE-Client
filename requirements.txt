@@ -1,1 +1,10 @@
+# H1ST
+https://GitHub.com/Aitomatic/H1st/archive/ai-app.zip
+git+https://GitHub.com/JazzBand/Django-Silk.git#egg=Django-Silk
+
+# ML/DL
+Auto-SKLearn >= 0.14.0
+SciKit-Learn >= 0.24.2
+
+# misc/other
 Click >= 8.0.1
