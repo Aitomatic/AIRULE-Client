@@ -1,12 +1,10 @@
 import json
+import os
 from pathlib import Path
 from types import SimpleNamespace
 
-from django.conf import settings as django_settings
 from django.core.management import call_command
 from django.core.wsgi import get_wsgi_application
-
-from .h1st_ai_app import settings as airecord_django_settings
 
 from .util import _AIRECORD_DIR_PATH
 
@@ -17,16 +15,16 @@ __all__ = (
 )
 
 
+# extract package metadata
 __metadata__ = SimpleNamespace(**json.load(open(Path(__file__).parent /
                                                 'metadata.json')))
 __version__ = __metadata__.VERSION
 
 
-django_settings.configure(**{
-    SETTING_KEY: setting_value
-    for SETTING_KEY, setting_value in airecord_django_settings.__dict__.items()
-    if SETTING_KEY.isupper()
-})
+# connect to local aiRecord Django app
+os.environ['DJANGO_SETTINGS_MODULE'] = 'airecord.h1st_ai_app.settings'
 get_wsgi_application()
+
+# migrate local aiRecord database
 print('Migrating Local aiRecord Database...')
 call_command('migrate')
