@@ -212,7 +212,8 @@ SILKY_STORAGE_CLASS = 'silk.storage.ProfilerResultStorage'
 SILKY_AUTHENTICATION = True   # User must login
 SILKY_AUTHORISATION = True   # User must have permissions
 
-SILKY_ANALYZE_QUERIES = True
+# TODO: turn True upon GitHub.com/JazzBand/Django-Silk/issues/489 fix
+SILKY_ANALYZE_QUERIES = False
 
 
 # misc/other
