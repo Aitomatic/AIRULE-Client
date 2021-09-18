@@ -8,16 +8,12 @@ from django.core.wsgi import get_wsgi_application
 
 from .h1st_ai_app import settings as airecord_django_settings
 
-from .data import DataSet
-from .model import Model
 from .util import _AIRECORD_DIR_PATH
 
 
 __all__ = [
     '__version__',
     '_AIRECORD_DIR_PATH',
-    'DataSet',
-    'Model',
 ]
 
 
