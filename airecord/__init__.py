@@ -8,6 +8,8 @@ from django.core.wsgi import get_wsgi_application
 
 from .util import _AIRECORD_DIR_PATH
 
+from .h1st_ai_app import settings
+
 
 __all__ = (
     '__metadata__', '__version__',
@@ -22,7 +24,7 @@ __version__ = __metadata__.VERSION
 
 
 # connect to local aiRecord Django app
-os.environ['DJANGO_SETTINGS_MODULE'] = 'airecord.h1st_ai_app.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = settings.__name__
 get_wsgi_application()
 
 # migrate local aiRecord database
