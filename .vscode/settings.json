@@ -36,5 +36,6 @@
 
   "python.linting.banditEnabled": true,
   "python.linting.banditArgs": [
+    "--skip B105"
   ],
 }
