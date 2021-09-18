@@ -10,7 +10,7 @@ urlpatterns = [
     # Admin URLs
     path('admin/', admin.site.urls),
 
-    # Silk Query Profiling URLs
+    # Query Profiling URLs
     path('silk/', include('silk.urls', namespace='silk')),
 
     # REST Framework URLs
