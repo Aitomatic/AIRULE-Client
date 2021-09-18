@@ -6,6 +6,7 @@ from types import SimpleNamespace
 from django.core.management import call_command
 from django.core.wsgi import get_wsgi_application
 
+from .model import AuditTrailedModel
 from .util import _AIRECORD_DIR_PATH
 
 from .h1st_ai_app import settings
@@ -13,6 +14,7 @@ from .h1st_ai_app import settings
 
 __all__ = (
     '__metadata__', '__version__',
+    'AuditTrailedModel',
     '_AIRECORD_DIR_PATH',
 )
 
