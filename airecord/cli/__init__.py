@@ -2,5 +2,5 @@ import click
 
 
 @click.command()
-def airule():
+def airecord():
     pass

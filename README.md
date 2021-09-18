@@ -1,1 +1,1 @@
-# `aiRULE` Client
+# Aitomatic `aiRecord` client library

@@ -1,7 +1,7 @@
 import json
 from setuptools import find_packages, setup
 
-from airule import metadata
+from airecord import metadata
 
 
 setup(
@@ -24,7 +24,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=open('requirements.txt').readlines(),
-    entry_points=dict(console_scripts=['airule=airule.cli:airule']),
+    entry_points=dict(console_scripts=['airecord=airecord.cli:airecord']),
     extras_require={},
     python_requires='>= 3.8',
     setup_requires=[],

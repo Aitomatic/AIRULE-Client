@@ -1,11 +1,11 @@
 {
-  "PACKAGE": "aiRULE",
-  "VERSION": "0.0.0.dev11",
-  "DESCRIPTION": "aiRULE Client",
+  "PACKAGE": "aiRecord",
+  "VERSION": "0.0.0",
+  "DESCRIPTION": "Aitomatic aiRecord Client",
   "AUTHOR": "Aitomatic, Inc.",
 
-  "URL": "https://GitHub.com/Aitomatic/aiRULE-Client",
-  "DOWNLOAD_URL": "https://GitHub.com/Aitomatic/aiRULE-Client/archive/main.zip",
+  "URL": "https://GitHub.com/Aitomatic/aiRecord",
+  "DOWNLOAD_URL": "https://GitHub.com/Aitomatic/aiRecord/archive/main.zip",
 
   "CLASSIFIERS": [
   ],
