@@ -11,15 +11,15 @@ from .h1st_ai_app import settings as airecord_django_settings
 from .util import _AIRECORD_DIR_PATH
 
 
-__all__ = [
-    '__version__',
+__all__ = (
+    '__metadata__', '__version__',
     '_AIRECORD_DIR_PATH',
-]
+)
 
 
-metadata = SimpleNamespace(**json.load(open(Path(__file__).parent /
-                                            'metadata.json')))
-__version__ = metadata.VERSION
+__metadata__ = SimpleNamespace(**json.load(open(Path(__file__).parent /
+                                                'metadata.json')))
+__version__ = __metadata__.VERSION
 
 
 django_settings.configure(**{
