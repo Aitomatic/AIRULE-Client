@@ -1,4 +1,4 @@
-from h1st.django.util.config import parse_config_file
+from airecord import _AIRECORD_DIR_PATH
 
 
 # Quick-start development settings - unsuitable for production
@@ -15,8 +15,6 @@ INTERNAL_IPS = ['127.0.0.1']
 
 ALLOWED_HOSTS = [
     '127.0.0.1', 'localhost',
-    '.aitomatic.io',
-    '.h1st.ai',
 ]
 
 
@@ -89,7 +87,10 @@ TEMPLATES = [
 # Database
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 DATABASES = {
-    'default': parse_config_file()['db']
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': _AIRECORD_DIR_PATH / 'db.sqlite3',
+    }
 }
 
 
