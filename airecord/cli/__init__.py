@@ -13,4 +13,4 @@ def airecord():
     sys.path.insert(0, __path__[0])
 
     # run Django server locally
-    call_command('runserver')
+    call_command('runserver', addrport='8686')
