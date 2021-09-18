@@ -50,9 +50,6 @@ INSTALLED_APPS = [
     'h1st.django.data',
     'h1st.django.model',
     'h1st.django.trust',
-
-    # this project's app modules
-    'data_mgmt',
 ]
 
 MIDDLEWARE = [
