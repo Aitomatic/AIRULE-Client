@@ -3,7 +3,7 @@ from django.urls.conf import include, path
 from django.views.generic.base import RedirectView
 
 
-urlpatterns = [
+urlpatterns = (
     # Home URL redirected to Admin
     path('', RedirectView.as_view(url='admin')),
 
@@ -18,4 +18,4 @@ urlpatterns = [
 
     # H1st URLs
     path('h1st/', include('h1st.django.urls')),
-]
+)
